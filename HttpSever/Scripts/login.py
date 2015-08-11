@@ -1,6 +1,5 @@
 from bottle import route, run, debug
 
-
 @route('/login')
 def Login():
 	print('step in server')
